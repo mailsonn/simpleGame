@@ -1,7 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+body {
+  background-image: url(./fundo/imgFundo.jpg);
+}
 
 *{
   margin: 0;
   padding: 0;
+}
+
+
+.inicio{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fascinate Inline", system-ui;
+
+  color:  rgb(37, 10, 99)
+
 }
 
 h1{
@@ -58,14 +75,18 @@ h1{
 
 button{
   margin-right: 10px;
-  padding: 25px 40px;
+  padding: 20px 40px;
+  font-size: 50px;
+  font-weight: 900;
+  border-radius: 15px;
 }
 
 @media (min-width: 100px) {
 
   button{
-    margin-right: 10px;
+    margin-right: 15px;
     padding: 60px 70px;
+    border-radius: 25px;
   }
 
 }
