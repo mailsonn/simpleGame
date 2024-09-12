@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+
+body {
+    background-image: url(./fundo/imgFundo.jpg);
+}
+
 .inicio{
     margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Fascinate Inline", system-ui;
+
+    color:  rgb(37, 10, 99)
 
 }
 
@@ -15,7 +25,6 @@
     font-family: "Fascinate Inline", system-ui;
     font-weight: 400;
     font-style: normal;
-
 }
 
 #play{
@@ -25,7 +34,13 @@
     color: rgb(31, 29, 29);
     font-size: 1rem;
     font-weight: 800;
-    border: 1px solid rgb(27, 24, 24);
+    border: none;
+
+    font-family: "Fascinate Inline", system-ui;
+
+    color:white;
+    text-shadow: 2px 4px 4px black;
+    box-shadow: 0 0 4px rgb(15, 15, 15);
 }
 
 a {
