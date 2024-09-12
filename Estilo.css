@@ -1,0 +1,71 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+}
+
+.boy {
+  height: 20px;
+  width: 10px;
+  background: green;
+  margin-top: 200px;
+  position: relative;
+ 
+  left: 0;  /* posição inicial */
+}
+
+
+.obstaculo{
+  display: inline-block;
+  height: 35px;
+  width: 17px;
+  background: red;
+  margin-left: 100px;
+}
+
+.obstaculo2{
+  display: inline-block;
+  height: 80px;
+  width: 17px;
+  background: red;
+  margin-left: 70px;
+}
+
+.obstaculo3{
+  display: inline-block;
+  height: 50px;
+  width: 17px;
+  background: red;
+  margin-left: 50px;
+}
+
+
+.chao{
+  background-image: linear gradient(to bottom, blue, white);
+  border-bottom: solid 2px black;
+}
+
+.teclado{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+button{
+  margin-right: 10px;
+  padding: 25px 40px;
+}
+
+@media (min-width: 100px) {
+
+  button{
+    margin-right: 10px;
+    padding: 60px 70px;
+  }
+
+}

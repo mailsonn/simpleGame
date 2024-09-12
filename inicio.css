@@ -1,0 +1,33 @@
+.inicio{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.comecar{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#play{
+    padding: 30px 45px;
+    background-image: linear-gradient(to bottom, rgb(63, 13, 180), white);
+    border-radius: 10px ;
+    color: rgb(31, 29, 29);
+    font-size: 1rem;
+    font-weight: 800;
+    border: 1px solid rgb(27, 24, 24);
+}
+
+a {
+    text-decoration: none;
+}
